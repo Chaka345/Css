@@ -1,0 +1,65 @@
+h1 {
+  text-align: right;
+  color: #ff0000;
+}
+h2 {
+  text-align: right;
+  color: #0000ff;
+}
+p#akapit1_babiychuk {
+  text-align: right;
+  font-family: serif;
+  color: #dc143c;
+  text-indent: 3cm;
+  line-height: 1.2cm;
+  word-spacing: 9px;
+  letter-spacing: 3ex;
+}
+
+.z1_babiychuk {
+  font-style: italic;
+  text-decoration: overline;
+  font-weight: 400;
+  font-size: xx-small;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+.z2_babiychuk {
+  color: #8b0000;
+  font-weight: 600;
+  font-size: medium;
+}
+.z3_babiychuk {
+  color: #ff0000;
+  font-weight: 700;
+  font-size: xx-large;
+}
+p#akapit2_babiychuk {
+  text-align: center;
+  font-family: sans-serif;
+  color: #ff4500;
+  text-indent: 15mm;
+  line-height: 18mm;
+  word-spacing: 13pt;
+  letter-spacing: 0.3cm;
+}
+
+.z4_babiychuk {
+  text-decoration: line-through;
+  color: #ff8c00;
+  font-size: x-small;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.z5_babiychuk {
+  color: #ffa07a;
+  font-weight: 600;
+  font-size: small;
+}
+.z6_babiychuk {
+  color: #ff7f50;
+  font-weight: 800;
+  font-size: large;
+}
