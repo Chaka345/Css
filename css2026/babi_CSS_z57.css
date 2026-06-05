@@ -1,0 +1,15 @@
+*{ 
+font-size: 37pt;
+color:red;
+background-color: silver;
+} 
+p.klasa_nieuniwersalna_babiychuk
+{ 
+color:green; 
+font-size: 34pt; 
+}
+*.klasa_uniwersalna_babiychuk
+{ 
+font-size:32pt;
+color:green;
+}
