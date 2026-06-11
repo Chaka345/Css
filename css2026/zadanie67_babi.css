@@ -1,0 +1,46 @@
+.a1 {
+     font-size: 22pt;
+     color: gold;
+}
+
+.a1:first-letter {
+    font-size: 122pt;
+    color: rgb(0, 26, 255);
+}
+
+.a2 {
+    font-size: 20pt;
+    color: yellow;
+}
+
+.a2:first-letter {
+    font-size: 122pt;
+    color: yellow;
+}
+
+H1 
+{ 
+color:purple; 
+font-size:31pt; 
+} 
+H1:first-letter 
+{ 
+color:silver; 
+font-size: 100pt;
+} 
+
+.a3 
+{
+    font-size: 20pt;
+    color: rgb(195, 0, 255);
+}
+
+.a3:first-line
+{
+color: red;
+}
+.a3:first-letter
+{
+font-size:60pt;
+}
+/* Babiychuk z67 */
