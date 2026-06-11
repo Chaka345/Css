@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria CSS - Zaokrąglanie i Centrowanie</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.5;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            color: black;
+        }
+
+        .heading-line {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            text-align: center;
+            font-size: 1.3em;
+        }
+
+        ul {
+            margin-top: 0;
+        }
+
+        .code-box {
+            border: 1px solid black;
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heading-line">________Początek teorii zaokrąglanie narożników ________</div>
+
+    <table>
+        <tr>
+            <th colspan="2">Zaokrąglenie narożników obszarów bloków np. DIV</th>
+        </tr>
+        <tr>
+            <td>Zaokrąglenie górnego-lewego<br>narożnika:</td>
+            <td>selektor { border-top-left-radius: zaokrąglenie }</td>
+        </tr>
+        <tr>
+            <td>Zaokrąglenie górnego-prawego<br>narożnika:</td>
+            <td>selektor { border-top-right-radius: zaokrąglenie }</td>
+        </tr>
+        <tr>
+            <td>Zaokrąglenie dolnego-prawego<br>narożnika:</td>
+            <td>selektor { border-bottom-right-radius: zaokrąglenie }</td>
+        </tr>
+        <tr>
+            <td>Zaokrąglenie dolnego-lewego<br>narożnika:</td>
+            <td>selektor { border-bottom-left-radius: zaokrąglenie }</td>
+        </tr>
+    </table>
+
+    <p><span class="underline">Zastosowanie:</span><br>
+    We wszystkich przypadkach selektorem może być dowolny znacznik, np.</p>
+    <ul>
+        <li>p – akapit</li>
+        <li>h1 – nagłówek</li>
+        <li>div – blok</li>
+    </ul>
+
+    <p>Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone narożniki. Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie.</p>
+
+    <p>Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz.</p>
+
+    <p>Przykład:</p>
+    <div class="code-box">border-top-right-radius: 10px</div>
+
+    <div class="heading-line">________koniec teorii zaokrąglanie narożników ________</div>
+
+    <div class="heading-line">________początek teorii CENTROWANIA bloku DIV ________</div>
+    
+    <p>W definicja CSS bloku DIV należy wpisać:</p>
+    <div class="code-box">
+        margin-left: auto;<br>
+        margin-right: auto;
+    </div>
+
+    <div class="heading-line">________koniec teorii CENTROWANIA bloku DIV ________</div>
+
+</body>
+</html>
