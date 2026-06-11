@@ -1,0 +1,10 @@
+ div#blok1_babiychuk {background-color: 00ff00;width:660px;}
+ div#blok2_babiychuk {background-color: 00ff00;width:660px;}
+ div#blok3_babiychuk {background-color: 00ff00;width:660px;}
+ div#blok1_babiychuk:hover {background-color: red;font-size:24mm;}
+ div#blok2_babiychuk:hover {background-color: silver;font-size:24mm;}
+ div#blok3_babiychuk:hover {background-color: blue;font-size:24mm;}
+/* 24mm wynika z obliczenia wielkości liter--> Ty oblicz Twoją wielkść */
+/* dopisz jeszcze dwa hover z opowiednimi kolorami--> patrz tabela */
+/* Dopisz _Twoje_nazwisko po blik1, blok2, blok3 w całym kodzie */
+/* Babiychuk z60 */
