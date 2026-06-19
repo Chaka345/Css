@@ -1,0 +1,16 @@
+   body {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            background-color: aliceblue;
+            border: 5px solid black;
+            color: red;
+            font-size: 42px;
+            width: 900px;
+            height: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;        
+        }
+/* Oleksii Babiychuk z78*/
